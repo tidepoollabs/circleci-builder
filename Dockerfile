@@ -26,6 +26,7 @@ RUN apt-get update && apt-get install -y \
 		gnupg \
 		gzip \
 		jq \
+    # for aws cli
 		groff \
 		# popular DB lib - MariaDB
 		libmariadb-dev \
