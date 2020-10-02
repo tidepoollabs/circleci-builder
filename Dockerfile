@@ -85,6 +85,8 @@ RUN rm -rf nodesource_setup.sh
 RUN npm install -g yarn
 RUN npm install -g jira-connector
 RUN npm install -g shelljs
+RUN npm install -g lerna
+RUN npm install -g npm-run-all
 
 # install aws cli
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
