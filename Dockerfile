@@ -40,6 +40,7 @@ RUN apt-get update && apt-get install -y \
 		netcat \
 		openssh-client \
 		parallel \
+		postgresql-client \
 		software-properties-common \
 		sudo \
 		tar \
